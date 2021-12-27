@@ -1,6 +1,11 @@
 import { handleSubmit } from "./js/formHandler";
 import { checkForName } from "./js/nameChecker";
 
+import './styles/base.scss'
+
 alert("this is test !");
 
-import './styles/base.scss'
+export {
+    handleSubmit,
+    checkForName
+}
